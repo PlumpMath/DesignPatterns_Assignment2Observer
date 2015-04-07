@@ -37,8 +37,6 @@ namespace Assign2_Observer
             
         }
 
-        
-
         public IDisposable Subscribe(IObserver<LOTRSpecies> observer)
         {
             if(!listOfBadGuys.Contains(observer))

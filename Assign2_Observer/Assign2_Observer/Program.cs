@@ -21,6 +21,7 @@ namespace Assign2_Observer
             saruman.Subscribe(eye);
             witchKing.Subscribe(eye);
 
+            //I used variable length parameters and a class instead of numbers. Tom said this was ok.
             eye.setEnemies(new LOTRSpecies(1, "Hobbit"), new LOTRSpecies(1, "elf"), new LOTRSpecies(2, "dwarves"));
 
             saruman.defeated();
